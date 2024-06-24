@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+      "taxable": {"type": ["boolean", "null"]},
+      "internalId": {"type": ["string", "null"]},
+      "lastModifiedDate": {"type": ["string", "null"], "format": "date-time"},
+      "entityId": {"type": ["string", "null"]},
+      "entityStatus": {"type": ["string", "null"]},
+      "email": {"type": ["string", "null"]},
+      "dateCreated": {"type": ["string", "null"], "format": "date-time"},
+      "subsidiary": {"type": ["string", "null"]}
+    }
+  }
+  

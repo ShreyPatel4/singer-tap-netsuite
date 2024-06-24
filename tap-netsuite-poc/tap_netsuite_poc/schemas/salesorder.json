@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+      "lastModifiedDate": {"type": ["string", "null"], "format": "date-time"},
+      "status": {"type": ["string", "null"]},
+      "itemList": {
+        "type": ["array", "null"],
+        "items": {"type": "object", "properties": {"items_line": {"type": "string"}}}
+      },
+      "internalId": {"type": ["string", "null"]},
+      "customFieldList": {"type": ["string", "null"]},
+      "createdDate": {"type": ["string", "null"], "format": "date-time"},
+      "customForm": {"type": ["string", "null"]},
+      "entity": {"type": ["string", "null"]},
+      "currency": {"type": ["string", "null"]},
+      "tranDate": {"type": ["string", "null"], "format": "date-time"},
+      "tranId": {"type": ["string", "null"]},
+      "salesRep": {"type": ["string", "null"]},
+      "memo": {"type": ["string", "null"]},
+      "exchangeRate": {"type": ["number", "null"]},
+      "taxItem": {"type": ["string", "null"]},
+      "taxRate": {"type": ["number", "null"]},
+      "billingAddress": {"type": ["string", "null"]},
+      "shippingAddress": {"type": ["string", "null"]},
+      "shipDate": {"type": ["string", "null"], "format": "date-time"},
+      "subTotal": {"type": ["number", "null"]},
+      "discountTotal": {"type": ["number", "null"]},
+      "total": {"type": ["number", "null"]},
+      "balance": {"type": ["number", "null"]},
+      "subsidiary": {"type": ["string", "null"]}
+    }
+  }
+  
