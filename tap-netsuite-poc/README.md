@@ -15,3 +15,8 @@ This tap:
 ---
 
 Copyright &copy; 2018 Stitch
+
+
+== Outputs  
+![image](https://github.com/ShreyPatel4/singer-tap-netsuite/assets/41239873/1d03f824-0a0e-46a6-afc2-fb6a07617973)
+![image](https://github.com/ShreyPatel4/singer-tap-netsuite/assets/41239873/3aac67ea-24a0-43cf-95a7-08d9b4ef774b)
